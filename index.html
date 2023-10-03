@@ -9,23 +9,26 @@
 </head>
 
 <body>
-    <div class="header">
+    <!-- Changed to header for better semantic HTML -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- Removed unncessary lists element and division -->
-        <div>
+        <!-- Changed to nav for better semantic HTML -->
+        <nav>
             <!-- Anchor elements are in nature already inline -->
             <a href="#search-engine-optimization">Search Engine Optimization</a>
             <a href="#online-reputation-management">Online Reputation Management</a>
             <a href="#social-media-marketing">Social Media Marketing</a>
-        </div>
-    </div>
-    <!-- Modified class name to be more descriptive -->
-    <div class="hero-image">
+        <nav>
+    </header>
+    <!-- Modified class name to be more descriptive and used section -->
+    <section class="hero-image">
         <!-- Added image source and alt text in HTML for accessibility -->
         <img src="./assets/images/digital-marketing-meeting.jpg" alt="A group of 4 people in a meeting looking at papers.">
-    </div>
+    </section>
     <div class="content">
-        <div class="search-engine-optimization">
+        <!-- Added id attribute so anchor will work -->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <!-- Added alt text in HTML for accessibility -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Office table with pens, computer, coffee, and notebook" class="float-left" />
             <h2>Search Engine Optimization</h2>
