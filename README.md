@@ -10,22 +10,23 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+In this project, the website has been refactored to become more accessible for more users. After refactoring, users should be able to click onto each of the items on the navigation bar to bring them to the desired section of the webpage. Additionally, for users who have screen readers, images can now be read out to them so they understand what visual elements are there. If images fail to load on the webpage, users should also be able to refer to the alt text to get context. To take a look at the actual refactoring of the website, you can take a look at the HTML and CSS file itself to see what changes were made and why. These are made as comments for any elements/styles that were modified. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+The starter code for this refactored website was from: https://github.com/coding-boot-camp/urban-octo-telegram/tree/main/Develop
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Websites that helped the refactoring of the source code includes:
 
-If you followed tutorials, include links to those here as well.
+- https://digital.com/how-to-create-a-website/how-to-properly-structure-your-html-for-web-accessibility/
+- https://www.w3schools.com/html/html_accessibility.asp
+- https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
+
+These websites helped point out what needs to be added/changed in both the CSS and HTML files to make the website more accessible. Some ideas I got off from there included, having proper headings/titles, including semantic HTML, and providing alt text for images.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+Please refer to the LICENSE in the repo. 
 
 ---
